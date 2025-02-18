@@ -1,6 +1,6 @@
 # Cloud-Server-Leaderboard-Example-by-Hhuxx1
-
-This script implements a Killstreak Leaderboard System in Lua for a multiplayer game using CloudSever for data storage and Graphics for UI display. Below is a step-by-step breakdown of how the script functions:
+<a href="https://github.com/Hhuxx1-1/Cloud-Server-Leaderboard-Example-by-Hhuxx1/blob/main/Leaderboard%20Aura%20%2B9999.lua"> This Script</a>
+implements a Killstreak Leaderboard System in Lua for a multiplayer game using CloudSever for data storage and Graphics for UI display. Below is a step-by-step breakdown of how the script functions:
 
 ## 1. Leaderboard Setup
 The script initializes a leaderboard table (leaderboard) with:
