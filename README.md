@@ -61,7 +61,7 @@ leaderboard.loadServerData = function()
     end
 end
 ```
-Calls ```CloudSever:getOrderDataIndexArea()``` to fetch the top 70 players in descending order.
+Calls ```CloudSever:getOrderDataIndexArea()``` to fetch the top 70 players in descending order ``` 10,9,4,2,1 ``` .
 If the request fails, the retry interval (reqtime) is set to 1200 seconds (20 minutes).
 
 ## 4. Initializing the Leaderboard UI
