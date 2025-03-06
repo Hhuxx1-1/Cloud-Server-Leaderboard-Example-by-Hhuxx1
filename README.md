@@ -45,7 +45,7 @@ local function Failure(msg)
 end
 ```
 Displays an error message on the leaderboard UI if data retrieval fails.
-Loading Server Data
+## 4. Loading Server Data
 ```lua
 leaderboard.loadServerData = function()
     local callback = function (ret, value)
@@ -64,7 +64,7 @@ end
 Calls ```CloudSever:getOrderDataIndexArea()``` to fetch the top 70 players in descending order ``` 10,9,4,2,1 ``` .
 If the request fails, the retry interval (reqtime) is set to 1200 seconds (20 minutes).
 
-## 4. Initializing the Leaderboard UI
+## 5. Initializing the Leaderboard UI
 Offset Positions for Display
 The offset table determines the positioning of the leaderboard entries.
 
@@ -97,7 +97,7 @@ end
 Creates text graphics at various positions for displaying leaderboard ranks.
 Initializes two header texts: "Killstreak" and "Leaderboard."
 
-## 5. Displaying the Leaderboard Data
+## 6. Displaying the Leaderboard Data
 ``` lua
 leaderboard.display = function()
     local ret = 0
@@ -120,7 +120,7 @@ Killstreak Count
 ```
 Calls ```Graphics:snycGraphicsInfo2Client()``` to update client UI.
 
-## 6. Running the Leaderboard System
+## 7. Running the Leaderboard System
 Game Loop Handling
 ```lua
 local isGame = true 
@@ -162,7 +162,7 @@ end)
 ```
 Stops the loop when the game ends.
 
-## 7. Admin Commands for Resetting Leaderboard
+## 8. Admin Commands for Resetting Leaderboard
 ```lua
 ScriptSupportEvent:registerEvent("Player.NewInputContent", function(e)
     local playerid = e.eventobjid
